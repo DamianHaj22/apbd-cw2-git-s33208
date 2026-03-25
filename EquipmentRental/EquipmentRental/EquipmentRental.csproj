@@ -40,6 +40,7 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Application\Policies\DefaultRentalLimitPolicy.cs" />
         <Compile Include="Application\Policies\IRentalLimitPolicy.cs" />
         <Compile Include="Domain\Models\Camera.cs" />
         <Compile Include="Domain\Models\Employee.cs" />
