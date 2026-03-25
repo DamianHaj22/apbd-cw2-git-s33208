@@ -40,6 +40,7 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Application\Policies\DailyPenaltyCalculator.cs" />
         <Compile Include="Application\Policies\DefaultRentalLimitPolicy.cs" />
         <Compile Include="Application\Policies\IPenaltyCalculator.cs" />
         <Compile Include="Application\Policies\IRentalLimitPolicy.cs" />
