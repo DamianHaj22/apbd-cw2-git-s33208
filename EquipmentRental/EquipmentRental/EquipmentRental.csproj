@@ -42,6 +42,7 @@
     <ItemGroup>
         <Compile Include="Domain\Models\Equipment.cs" />
         <Compile Include="Domain\Models\EquipmentStatus.cs" />
+        <Compile Include="Domain\Models\Laptop.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
