@@ -46,6 +46,7 @@
         <Compile Include="Domain\Models\EquipmentStatus.cs" />
         <Compile Include="Domain\Models\Laptop.cs" />
         <Compile Include="Domain\Models\Projector.cs" />
+        <Compile Include="Domain\Models\Rental.cs" />
         <Compile Include="Domain\Models\Student.cs" />
         <Compile Include="Domain\Models\User.cs" />
         <Compile Include="Domain\Models\UserType.cs" />
