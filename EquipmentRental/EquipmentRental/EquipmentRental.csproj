@@ -40,12 +40,18 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Application\Policies\DailyPenaltyCalculator.cs" />
+        <Compile Include="Application\Policies\DefaultRentalLimitPolicy.cs" />
+        <Compile Include="Application\Policies\IPenaltyCalculator.cs" />
+        <Compile Include="Application\Policies\IRentalLimitPolicy.cs" />
+        <Compile Include="Application\RentalService.cs" />
         <Compile Include="Domain\Models\Camera.cs" />
         <Compile Include="Domain\Models\Employee.cs" />
         <Compile Include="Domain\Models\Equipment.cs" />
         <Compile Include="Domain\Models\EquipmentStatus.cs" />
         <Compile Include="Domain\Models\Laptop.cs" />
         <Compile Include="Domain\Models\Projector.cs" />
+        <Compile Include="Domain\Models\Rental.cs" />
         <Compile Include="Domain\Models\Student.cs" />
         <Compile Include="Domain\Models\User.cs" />
         <Compile Include="Domain\Models\UserType.cs" />
