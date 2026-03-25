@@ -45,6 +45,7 @@
         <Compile Include="Domain\Models\EquipmentStatus.cs" />
         <Compile Include="Domain\Models\Laptop.cs" />
         <Compile Include="Domain\Models\Projector.cs" />
+        <Compile Include="Domain\Models\UserType.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
